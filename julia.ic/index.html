@@ -4,12 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>JULIA.IC</title>
-        <link rel="stylesheet" href="https://artic.leosight.cz/design/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://artic.leosight.cz/design/css/main.css">
-        <link rel="stylesheet" href="https://artic.leosight.cz/design/css/fontawesome.min.css">
-        <script src="https://artic.leosight.cz/design/js/jquery.min.js"></script>
-        <script src="https://artic.leosight.cz/design/js/bootstrap.min.js"></script>
-        <script src="https://artic.leosight.cz/design/js/main.js?v=4"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     </head>
     <style>
         .carousel-control-next,
@@ -26,54 +21,60 @@
         })
     </script>
     <body>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
         <div class="container text-center">
             <div class="alert alert-dark" role="alert">
                 <h3 class="display-3">JULIA.IC</h3>
                 <p class="text-muted">Web mladé malířky</p>
             </div>
             <h5 class="display-5">Julia Santos Costa</h5>
-            <p>Ahoj! Jmenuji se Julia Santos Costa a již od svých 10 let se věnuji malování.<br>Pocházím z Brazílie, konkrétně z města Fortaleza.<br>Do San Andreas jsem se přistěhovala na konci prosince 2022.</p>
-            <p>Ve své domovině jsem vystudovala střední uměleckou školu se zaměřením na malbu.<br>Během studia jsem si začala přivydělávat jako malířka. Venku na ulici jsem malovala portréty turistů.<br>Hned co jsem vydělala dostatek peněz a dokončila školu rozhodla jsem se zkusit štěstí v SA.</p>
+                <p>Ahoj! Jmenuji se Julia Santos Costa a již od svých 10 let se věnuji malování.<br>Pocházím z Brazílie, konkrétně z města Fortaleza.<br>Do San Andreas jsem se přistěhovala na konci prosince 2022.</p>
+                <p>Ve své domovině jsem vystudovala střední uměleckou školu se zaměřením na malbu.<br>Během studia jsem si začala přivydělávat jako malířka. Venku na ulici jsem malovala portréty turistů.<br>Hned co jsem vydělala dostatek peněz a dokončila školu rozhodla jsem se zkusit štěstí v SA.</p>
             <hr>
 
-            <div id="carouselPreview" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselPreview" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselPreview" data-slide-to="1"></li>
-                    <li data-target="#carouselPreview" data-slide-to="2"></li>
-                    <li data-target="#carouselPreview" data-slide-to="3"></li>
-                    <li data-target="#carouselPreview" data-slide-to="4"></li>
-                    <li data-target="#carouselPreview" data-slide-to="5"></li>
-                </ol>
+            <div id="carouselPreview" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselPreview" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselPreview" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselPreview" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselPreview" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselPreview" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselPreview" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="" src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/01.jpg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="" src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/02.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="" src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/03.jpg" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="" src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/04.jpg" alt="Fourth slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="" src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/05.jpg" alt="Fifth slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="" src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/06.jpg" alt="Sixth slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/01.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/02.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/03.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/04.jpg" alt="Fourth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/05.jpg" alt="Fifth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/06.jpg" alt="Sixth slide">
+                        </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselPreview" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Další</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselPreview" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Předchozí</span>
-                </a>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPreview" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPreview" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
             <hr>
             <h5 class="display-5 mb-3">Moje nabídka</h5>
             <table class="table table-bordered table-striped clearfix">
@@ -102,7 +103,17 @@
                     </tr>
                 </tbody>
             </table>
-            <a class="btn btn-primary mb-3" href="https://i.imgur.com/qKlD4AE.jpeg" target="_blank">Ukázka maleb</a>
+            
+            <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#offer">Aktuální nabídka</button>
+            <div class="modal modal-lg fade" id="offer" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="https://raw.githubusercontent.com/PaLu42/Julia-ic-obr-zky/main/nabidka.jpg" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
